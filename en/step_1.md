@@ -1,59 +1,26 @@
-## Introduction
+An **array** is a collection of data in programming. 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+Imagine a series of variables all linked together, individual items are called **elements**.
 
-### What you will make
+Elements are accessed using an **index**.
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+The first element in the array is at index 0.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+     ___________   ___________   ___________  
+    | Element 1 | | Element 2 | | Element 3 |
+     ‾‾‾‾‾‾‾‾‾‾‾   ‾‾‾‾‾‾‾‾‾‾    ‾‾‾‾‾‾‾‾‾‾‾
+    |  Index 0  | |  Index 1  | |  Index 2  |
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+You used this in **Comic character** for the Hero slider. 
 
---- collapse ---
+Square brackets `[]` are used to refer to the position of the element in the list.
+
+--- code ---
 ---
-title: What you will need
+language: js
+filename: scripts.js
 ---
-### Hardware
+  
+heroSlides[0].classList.remove("active");
 
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+--- /code ---
