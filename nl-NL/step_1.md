@@ -1,21 +1,21 @@
-An **array** is a collection of data in programming.
+Een **array** is een verzameling gegevens in programmeren.
 
-Imagine a series of variables all linked together, individual items are called **elements**.
+Stel je een reeks variabelen voor die allemaal met elkaar verbonden zijn. De individuele items worden **elementen** genoemd.
 
-Elements are accessed using an **index**.
+Elementen worden benaderd met behulp van een **index**.
 
-The first element in the array is at index 0.
+Het eerste element in de array bevindt zich op index 0.
 
 ```
  ___________   ___________   ___________  
 | Element 1 | | Element 2 | | Element 3 |
- ‾‾‾‾‾‾‾‾‾‾‾   ‾‾‾‾‾‾‾‾‾‾    ‾‾‾‾‾‾‾‾‾‾‾
-|  Index 0  | |  Index 1  | |  Index 2  |
+ ‾‾‾‾‾‾‾‾‾‾‾ ‾‾‾‾‾‾‾‾‾‾ ‾‾‾‾‾‾‾‾‾‾‾
+| Index 0 | | Index 1 | | Index 2 |
 ```
 
-You used this in **Comic character** for the Hero slider.
+Je hebt dit gebruikt in het **Stripfiguur** project voor de Hero slider.
 
-Square brackets `[]` are used to refer to the position of the element in the list.
+Vierkante haakjes `[]` worden gebruikt om te verwijzen naar de positie van het element in de lijst.
 
 ## --- code ---
 
