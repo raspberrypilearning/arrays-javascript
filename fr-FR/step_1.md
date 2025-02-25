@@ -1,21 +1,21 @@
-An **array** is a collection of data in programming.
+Un **tableau** est une collection de données en programmation.
 
-Imagine a series of variables all linked together, individual items are called **elements**.
+Imagine une série de variables toutes liées entre elles, les composants individuels sont appelés **éléments**.
 
-Elements are accessed using an **index**.
+Les éléments sont accessibles à l’aide d’un **index**.
 
-The first element in the array is at index 0.
+Le premier élément du tableau correspond à l'index 0.
 
 ```
  ___________   ___________   ___________  
-| Element 1 | | Element 2 | | Element 3 |
+| Élément 1 | | Élément 2 | | Élément 3 |
  ‾‾‾‾‾‾‾‾‾‾‾   ‾‾‾‾‾‾‾‾‾‾    ‾‾‾‾‾‾‾‾‾‾‾
 |  Index 0  | |  Index 1  | |  Index 2  |
 ```
 
-You used this in **Comic character** for the Hero slider.
+Tu as utilisé un tableau dans \*\*Personnage de Comics \*\* pour le slider Hero.
 
-Square brackets `[]` are used to refer to the position of the element in the list.
+Les crochets `[]` sont utilisés pour faire référence à la position de l'élément dans la liste.
 
 ## --- code ---
 
